@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     PINECONE_ENV: str | None = None
     PINECONE_INDEX: str | None = None
 
-    model_config = SettigsConfigDict(
+    model_config = SettingsConfigDict(
         env_file = '.env'
     )
 
